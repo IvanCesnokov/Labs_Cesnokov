@@ -1,0 +1,17 @@
+﻿  Cesnokov_lab5.cpp
+C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(51,5): error C2664: "void serializeString(std::ostream &,const std::array<char,20> &)": невозможно преобразовать аргумент 2 из "const std::array<char,30>" в "const std::array<char,20> &"
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(51,31):
+  Причина: невозможно преобразовать "const std::array<char,30>" в "const std::array<char,20>"
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(51,31):
+  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(23,6):
+   см. объявление "serializeString"
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(51,5):
+  при попытке сопоставить список аргументов "(std::ostream, const std::array<char,30>)"
+  
+C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(98,5): error C2664: "void deserializeString(std::istream &,std::array<char,20> &)": невозможно преобразовать аргумент 2 из "std::array<char,30>" в "std::array<char,20> &"
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(59,6):
+   см. объявление "deserializeString"
+  C:\Users\User\Desktop\Cesnokov_lab5\Cesnokov_lab5\Cesnokov_lab5.cpp(98,5):
+  при попытке сопоставить список аргументов "(std::istream, std::array<char,30>)"
+  
